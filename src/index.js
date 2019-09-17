@@ -8,5 +8,8 @@ document.getElementById("app").innerHTML = `
 `;
 
 const heading = document.createElement("h1");
-heading.innerHTML = "<span>Hello</span>" + document.URL;
 document.body.appendChild(heading);
+heading.innerHTML = "<span>Hello </span>" + document.URL;
+document.body.appendChild(heading);
+
+//document.getElementById("url").textContent = document.URL;
