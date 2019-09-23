@@ -7,6 +7,8 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 
+console.log(document.forms);
+
 const heading = document.createElement("h1");
 document.body.appendChild(heading);
 heading.innerHTML = "<span>Hello </span>" + document.URL;
