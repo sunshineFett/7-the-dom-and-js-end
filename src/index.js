@@ -14,4 +14,6 @@ document.body.appendChild(heading);
 heading.innerHTML = "<span>Hello </span>" + document.URL;
 document.body.appendChild(heading);
 
+console.log(document.URL);
+
 //document.getElementById("url").textContent = document.URL;
